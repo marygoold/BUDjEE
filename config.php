@@ -1,7 +1,7 @@
 <?php
 
-$db_name = "mysql:host=localhost:3307;dbname=shop_db";
-$username = "root";
+$db_name = "mysql:host=localhost:(port);dbname=shop_db";
+$username = "";
 $password = "";
 
 $conn = new PDO($db_name, $username, $password);
