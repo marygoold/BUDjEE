@@ -36,7 +36,7 @@ if (!isset($_SESSION['email_sent'])) {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'budjee.website@gmail.com';
-        $mail->Password   = 'jdrn jyid ulki ymgm';
+        $mail->Password   = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
